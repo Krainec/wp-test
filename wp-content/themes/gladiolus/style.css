@@ -1,0 +1,320 @@
+/*
+Theme Name: Gladiolus
+Theme URI: http://gladiolus/ksask.com
+Author: Ksask
+Author URI: http://gladiolus/ksask.com
+Description: First WP
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gladiolus/ksask
+*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{
+    text-decoration: none;
+
+}
+.container{
+    /*background: #aedfae;*/
+   max-width: 970px;
+}
+h3{
+    margin: 35px 0 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h4{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+header{
+    background: url(../img/header.png);
+    background-position-x: -150px;
+    background-position-y: 40px;
+    padding-bottom: 30px;
+}
+.mein-menu{
+    position: absolute ;
+    width: 100%;
+    z-index:100;
+}
+.navbar {
+    min-height: 46px;
+    border: none;
+    background: #f00;
+    border-radius: 0;
+}
+.navbar-nav>li>a {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #555;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #555;
+}
+.logo{
+    margin: 86px 0 35px 0;
+}
+.logo img{
+    width: 80%;
+    height: auto;
+}
+.logo p{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.prev{
+    margin-top: 30px;
+}
+.prev p{
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.header_form{
+    background: rgba(255,255,255,0.6);
+    border-radius: 5px;
+    padding: 0 20px 20px 20px;
+}
+.header_form p{
+    padding: 15px 25px 5px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header_form input{
+    margin-bottom: 10px;
+    height: 45px;
+    font-size: 16px;
+}
+.header_form button {
+    margin-top: 20px;
+    height: 45px;
+    font-size: 16px;
+}
+.header_form .btn-success {
+    color: #fff;
+    background-color: #48b382;
+    border-color: #48b382;
+}
+.contacts{
+    background: #fff;
+    padding-bottom: 65px;
+}
+.contacts h3{
+    margin: 35px 0 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contacts h4{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.contacts__img{
+    float: left;
+    margin: 0 10px 40px 0;
+
+}
+.contacts__img__head{
+    margin-left: -18px;
+    margin-top: 9px;
+}
+.contacts__img__cup{
+    margin-left: -45px;
+    margin-top: -80px;
+}
+.contacts__img__map{
+    margin-left: -30px;
+    margin-top: -48px;
+}
+.video{
+    background: #577985 url(../img/video.png);
+    padding-bottom: 50px;
+}
+.video h3{
+    margin: 35px 0 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+.video iframe{
+    width: 60%;
+    height: 230px;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+.news{
+    position: relative;
+    /*height: 1465px;*/
+    background: #fff;
+}
+.news hr{
+    margin: 5px 0;
+    border-color: #b8b8b8;
+}
+.news__block__item{
+    position: relative;
+
+    min-height: 180px;
+}
+.news__block__item img{
+    float: left;
+    margin: 0 40px 0 10px;
+}
+.news__item h4 {
+    padding: 15px 0 5px 0;
+    font-weight: bold;
+}
+.news__block__item a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 2px 10px;
+    color: #000;
+    font-weight: bold;
+    background: #fff;
+    border: 1px solid #717171;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    z-index: 100;
+}
+.news__block__item a:hover{
+    background: #ddd;
+}
+.news__bay__say {
+    margin-top: 35px;
+}
+.news__say{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: url(../img/05_02.png);
+    color: #fff;
+}
+.bay__say{
+    padding-bottom: 35px;
+}
+.bay__say img{
+    position: absolute;
+    top: -40px;
+    right: 10px;
+}
+.bay__say h4{
+    margin-top: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.bay__say p{
+
+    font-size: 16px;
+}
+.news__say__form{
+    margin-top: 20px;
+}
+.news__form input{
+    height: 40px;
+    font-size: 16px;
+    width: 49%;
+    background: #1f5379;
+    border: 1px solid #1f5379;
+}
+.news__form input:first-child{
+     float: right;
+ }
+.news__form button{
+    width:260px;
+    height: 50px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #3e9862;
+    border: none;
+}
+footer{
+    padding-top: 36px;
+    background: #002948;
+    color: #8094a4;
+    font-size: 12px;
+    padding-bottom: 35px;
+}
+.footer__logo{
+    margin-bottom: 35px;
+}
+.footer__logo p{
+    margin: 5px 0 0 30px;
+}
+footer a{
+    color: #8094a4;
+}
+footer a:hover {
+    color: #8094a4;
+}
+footer img{
+    color: #8094a4;
+}
+@media  (min-width: 768px){
+    .container-fluid{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .navbar-nav {
+
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav>li {
+        float: none;
+        display: inline-block;
+    }
+
+    .video iframe{
+        width:310px;
+        height:230px;
+        margin-left: 0%;
+    }
+    .right iframe{
+        float: right;
+    }
+    .bay__say{
+        padding-bottom: 105px;
+    }
+}
+@media (min-width: 992px){
+    header{
+        background-position-x: center;
+        padding-bottom: 130px;
+    }
+    margin-left: ;
+    .nav>li>a {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .video iframe{
+        width:410px;
+        height:315px;
+    }
+}
+
